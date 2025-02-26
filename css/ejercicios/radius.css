@@ -1,0 +1,29 @@
+h3{
+    display: inline-block;
+    background-color: #00c1fa;
+    margin: 0px;
+    margin-left: 149px;
+    
+}
+table{
+    border: 6px solid black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #fee4c3;
+}
+#foot{
+    border:none;
+    text-align: center;
+    background-color: #00c1fa;
+}
+td {
+    border: 1px solid black;
+    padding: 1px 40px;
+    margin:none;
+    border-top: none;
+    border-right: none;
+    border-bottom: 2px solid black; 
+    }
+th{
+    padding-top:10px;
+}
