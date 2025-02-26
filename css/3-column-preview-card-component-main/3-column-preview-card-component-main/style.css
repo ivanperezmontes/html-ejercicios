@@ -21,17 +21,30 @@ main {
   margin: 0;
   font-size: 15px;
 }
+.container{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  height: 100vh;
+}
+#item{
+  height: 50vh;
+}
+
 #sedans {
   background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 20px;
 }
 #suvs {
   background-color: hsl(184, 100%, 22%);
 }
 #luxury {
   background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 20px;
 }
 h2{
     font-family: "Big Shoulders Display", serif;
+    color: white;
 }
 p{
     font-family: "lexend Deca", serif;
