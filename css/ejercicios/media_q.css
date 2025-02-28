@@ -1,0 +1,83 @@
+div {
+    height:10vw;
+    width: 100vw;
+    margin: 5px;
+}
+
+
+.orange {
+  background: orange;
+}
+.green {
+  background: green;
+}
+.blue {
+  background: blue;
+}
+.gray {
+  background-color: gray;
+}
+
+@media (width <= 320px) {
+  div {
+    height: 10vw;
+    width: 100vw;
+    margin: 5px;
+  }
+  .green {
+    height: 12vh;
+  }
+  .blue {
+    height: 18vh;
+  }
+  .gray {
+    display: none;
+    height: 15vw;
+  }
+
+  /* Si el primer "gray" es el séptimo hijo en main */
+  main > div:nth-child(7) {
+    display: block;
+  }
+}
+
+@media (321px <= width <= 768px) {
+  div {
+    height: 10vw;
+    width: 100vw;
+    margin: 3px;
+  }
+  .green {
+    height: 20vh;
+  }
+  .gray {
+    width: 46vw;
+    height: 10vh;
+    display: inline-block;
+    margin: auto; /* Muestra en línea */
+  }
+}
+
+@media (width > 769px) {
+  div {
+    height: 10vh;
+    width: 100vw;
+    margin: 3px;
+  }
+  .orange {
+    display: inline-block;
+    width: 46vw;
+  }
+  .green {
+    height: 20vw;
+  }
+  .blue {
+    display: inline-block;
+    width: 30%;
+    height: 20vw;
+  }
+  .gray {
+    display: inline-block;
+    width: 23%;
+  }
+}
