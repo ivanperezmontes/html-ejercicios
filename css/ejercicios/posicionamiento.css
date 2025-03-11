@@ -1,0 +1,94 @@
+p {
+    background-color: green;
+    height: 70px;
+    overflow: auto;
+}
+
+.diana {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.circulo {
+    position: absolute;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.capa1 {
+    background-color: red;
+}
+
+.capa2 {
+    background-color: white;
+    width: 90%;
+    height: 90%;
+    top: 5%;
+    left: 5%;
+}
+
+.capa3 {
+    background-color: red;
+    width: 80%;
+    height: 80%;
+    top: 10%;
+    left: 10%;
+}
+
+.capa4 {
+    background-color: white;
+    width: 70%;
+    height: 70%;
+    top: 15%;
+    left: 15%;
+}
+
+.capa5 {
+    background-color: red;
+    width: 60%;
+    height: 60%;
+    top: 20%;
+    left: 20%;
+}
+.capa6 {
+    background-color: white;
+    width: 50%;
+    height: 50%;
+    top: 25%;
+    left: 25%;
+}
+
+.capa7 {
+    background-color: red;
+    width: 40%;
+    height: 40%;
+    top: 30%;
+    left: 30%;
+}
+.capa8 {
+    background-color: white;
+    width: 30%;
+    height: 30%;
+    top: 35%;
+    left: 35%;
+}
+
+.capa9 {
+    background-color: red;
+    width: 20%;
+    height: 20%;
+    top: 40%;
+    left: 40%;
+}
+
+.circulo:hover{
+    background-color: gold;
+}
+button{
+    border-radius: 50%;
+}
