@@ -15,24 +15,56 @@
       <div id="capibarbara">
         <h1>Capibarbara</h1>
         <img src="./img/capibara.png" alt="Capibara" />
+        <div class="progress-container">
+          <div class="progress-bar" id="general-bar"></div>
+        </div>
       </div>
       <div class="necesidades">
         <div class="eat">
           <h2>EAT</h2>
-          <div class="progress">
-            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 45%;" aria-valuenow="20" aria-valuemin="0" aria-valuemax="50"></div>
-        </div>
+          <div class="progress-container">
+            <div class="progress-bar" id="eat-bar"></div>
+            <div class="opciones" id="comida">
+              <button id="kiwi">🥝</button>
+              <button id="zanahoria">🥕</button>
+              <button id="flor">🌼</button>
+            </div>
+          </div>
         </div>
         <div class="play">
           <h2>PLAY</h2>
+          <div class="progress-container">
+            <div class="progress-bar" id="play-bar"></div>
+          </div>
+          <div class="opciones" id="juegos">
+            <button id="hilo">🧶</button>
+            <button id="pintar">🎨</button>
+            <button id="bucear">🥽</button>
+          </div>
         </div>
         <div class="fight">
           <h2>FIGHT</h2>
+          <div class="progress-container">
+            <div class="progress-bar" id="fight-bar"></div>
+          </div>
+          <div class="opciones" id="pelea">
+            <button id="cocodrilo">🐊</button>
+            <button id="mono">🐒</button>
+            <button id="raton">🐁</button>
+          </div>
         </div>
         <div class="sleep">
           <h2>SLEEP</h2>
+          <div class="progress-container">
+            <div class="progress-bar" id="sleep-bar"></div>
+          </div>
+          <div class="opciones" id="dormir">
+            <button id="mucho">💤</button>
+            <button id="fiesta">🎉</button>
+          </div>
         </div>
       </div>
     </main>
+    <script src="main.js"></script>
   </body>
 </html>
